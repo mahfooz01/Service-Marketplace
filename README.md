@@ -1,2 +1,41 @@
 # Service-Marketplace
-This is a simple yet functional Service Marketplace web application developed using PHP, MySQL, and external CSS (no JavaScript). The platform allows Service Providers to register, list their services with price and location, and Consumers to browse and hire providers based on their needs.
+# 🛠️ Service Marketplace Web App (PHP + MySQL)
+
+A lightweight and functional **Service Marketplace** built using **PHP**, **MySQL**, and **external CSS only** (no JavaScript). This application allows service providers to list their offerings and consumers to browse and hire as per their needs.
+
+---
+
+## 📌 Features
+
+- 🔐 User Registration & Login (for both Providers and Consumers)
+- 👨‍🔧 Service Providers can:
+  - Add service details
+  - Set fair pricing
+  - Upload service images
+  - Specify their city/location
+- 👥 Consumers can:
+  - View service listings in a stylish grid
+  - Hire service providers
+  - View their hire history
+- 🗃️ Separate dashboards for providers and consumers
+- 🔒 Passwords are securely hashed
+- 🧾 Hire history tracking system
+
+---
+
+## 📁 Folder Structure
+
+service_marketplace/
+│
+├── css/
+│   └── style.css
+├── uploads/
+│   └── (user-uploaded images)
+├── db.php
+├── header.php / footer.php
+├── index.php
+├── register.php / login.php / logout.php
+├── dashboard.php
+├── hire.php
+├── hire_history.php
+├── setup.sql
